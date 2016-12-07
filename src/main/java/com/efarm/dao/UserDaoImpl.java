@@ -8,14 +8,18 @@ package com.efarm.dao;
 import com.efarm.entity.User;
 import java.util.List;
 import javax.persistence.Query;
+import javax.transaction.Transactional;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 /**
  *
  * @author tolis
  */
+@Repository
+@Transactional
 public class UserDaoImpl implements UserDAO {
 
     @Autowired

@@ -29,7 +29,7 @@ public class ProductController {
                                 @RequestParam String bio, @RequestParam String publicLocal){
               int productLikes = Integer.parseInt(likes);
               Product product = new Product(id,category,owner,shop,productLikes,bio,publicLocal);                  
-              productDao.addProduct(product);
+              //productDao.addProduct(product);
         return "success"; //na pigenei kapou kai na exei ena link gia to shop opou tha emfanizontai kai ta products
     }
     

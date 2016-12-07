@@ -7,14 +7,18 @@ package com.efarm.dao;
 
 import com.efarm.entity.Product;
 import java.util.List;
+import javax.transaction.Transactional;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 /**
  *
  * @author tolis
  */
+@Repository
+@Transactional
 public class ProductDaoImpl implements ProductDAO {
 
     @Autowired
