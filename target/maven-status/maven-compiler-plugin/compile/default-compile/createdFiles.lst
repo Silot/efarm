@@ -1,4 +1,7 @@
+com/efarm/dao/ShopDaoImpl.class
+com/efarm/entity/Shop.class
 com/efarm/controllers/IndexController.class
-com/efarm/dao/UserDao.class
 com/efarm/entity/User.class
 com/efarm/dao/UserDaoImpl.class
+com/efarm/dao/UserDAO.class
+com/efarm/dao/ShopDAO.class

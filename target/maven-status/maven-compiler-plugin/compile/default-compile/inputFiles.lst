@@ -1,4 +1,13 @@
-/Users/tolis/NetBeansProjects/mavenproject1/e-Farm/src/main/java/com/efarm/dao/UserDao.java
+/Users/tolis/NetBeansProjects/mavenproject1/e-Farm/src/main/java/com/efarm/dao/UserDAO.java
+/Users/tolis/NetBeansProjects/mavenproject1/e-Farm/src/main/java/com/efarm/entity/Shop.java
+/Users/tolis/NetBeansProjects/mavenproject1/e-Farm/src/main/java/com/efarm/controllers/UserController.java
 /Users/tolis/NetBeansProjects/mavenproject1/e-Farm/src/main/java/com/efarm/entity/User.java
+/Users/tolis/NetBeansProjects/mavenproject1/e-Farm/src/main/java/com/efarm/dao/ProductDaoImpl.java
 /Users/tolis/NetBeansProjects/mavenproject1/e-Farm/src/main/java/com/efarm/controllers/IndexController.java
+/Users/tolis/NetBeansProjects/mavenproject1/e-Farm/src/main/java/com/efarm/controllers/ShopController.java
+/Users/tolis/NetBeansProjects/mavenproject1/e-Farm/src/main/java/com/efarm/entity/Product.java
+/Users/tolis/NetBeansProjects/mavenproject1/e-Farm/src/main/java/com/efarm/controllers/ProductController.java
+/Users/tolis/NetBeansProjects/mavenproject1/e-Farm/src/main/java/com/efarm/dao/ProductDAO.java
+/Users/tolis/NetBeansProjects/mavenproject1/e-Farm/src/main/java/com/efarm/dao/ShopDaoImpl.java
 /Users/tolis/NetBeansProjects/mavenproject1/e-Farm/src/main/java/com/efarm/dao/UserDaoImpl.java
+/Users/tolis/NetBeansProjects/mavenproject1/e-Farm/src/main/java/com/efarm/dao/ShopDAO.java
