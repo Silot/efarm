@@ -89,33 +89,33 @@
 <!-- works -->
 <div id="works"  class=" clearfix grid"> 
     <figure class="effect-oscar  wowload fadeIn">
-        <img src="${pageContext.request.contextPath}/resources/images/portfolio/1.jpg" alt="img01"/>
+        <img src="${pageContext.request.contextPath}/resources/images/portfolio/bio.jpg" alt="img01"/>
         <figcaption>
-            <h2>Login</h2>
+            <h2>Βιολογικά</h2>
             <p>Lily likes to play with crayons and pencils<br>
-            <a href="${pageContext.request.contextPath}/resources/images/portfolio/1.jpg" title="1" data-gallery>View more</a></p>            
+            <a href="${pageContext.request.contextPath}/resources/images/portfolio/bio.jpg" title="1" data-gallery>View more</a></p>            
         </figcaption>
     </figure>
      <figure class="effect-oscar  wowload fadeInUp">
-        <img src="${pageContext.request.contextPath}/resources/images/portfolio/2.jpg" alt="img01"/>
+        <img src="${pageContext.request.contextPath}/resources/images/portfolio/vegetables.jpg" alt="img01"/>
         <figcaption>
-            <h2>Favourits</h2>
+            <h2>Λαχανικά</h2>
             <p>Lily likes to play with crayons and pencils<br>
-            <a href="${pageContext.request.contextPath}/resources/images/portfolio/2.jpg" title="1" data-gallery>View more</a></p>            
+            <a href="${pageContext.request.contextPath}/resources/images/portfolio/vegetables.jpg" title="1" data-gallery>View more</a></p>            
         </figcaption>
     </figure>
      <figure class="effect-oscar  wowload fadeInUp">
-        <img src="${pageContext.request.contextPath}/resources/images/portfolio/3.jpg" alt="img01"/>
+        <img src="${pageContext.request.contextPath}/resources/images/portfolio/fruits.jpg" alt="img01"/>
         <figcaption>
-            <h2>Shops</h2>
+            <h2>Φρούτα</h2>
             <p>Lily likes to play with crayons and pencils<br>
-            <a href="${pageContext.request.contextPath}/resources/images/portfolio/3.jpg" title="1" data-gallery>View more</a></p>            
+            <a href="${pageContext.request.contextPath}/resources/images/portfolio/fruits.jpg" title="1" data-gallery>View more</a></p>            
         </figcaption>
     </figure>
      <figure class="effect-oscar  wowload fadeInUp">
         <img src="${pageContext.request.contextPath}/resources/images/portfolio/4.jpg" alt="img01"/>
         <figcaption>
-            <h2>Open Shop</h2>
+            <h2>Δημητριακά</h2>
             <p>Lily likes to play with crayons and pencils<br>
             <a href="${pageContext.request.contextPath}/resources/images/portfolio/4.jpg" title="1" data-gallery>View more</a></p>            
         </figcaption>
@@ -123,45 +123,47 @@
      <figure class="effect-oscar  wowload fadeInUp">
         <img src="${pageContext.request.contextPath}/resources/images/portfolio/5.jpg" alt="img01"/>
         <figcaption>
-            <h2>Events</h2>
+            <h2>Ξηροί Καρποί</h2>
             <p>Lily likes to play with crayons and pencils<br>
             <a href="${pageContext.request.contextPath}/resources/images/portfolio/5.jpg" title="1" data-gallery>View more</a></p>            
         </figcaption>
     </figure>
      
      <figure class="effect-oscar  wowload fadeInUp">
-        <img src="${pageContext.request.contextPath}/resources/images/portfolio/6.jpg" alt="img01"/>
+        <img src="${pageContext.request.contextPath}/resources/images/portfolio/herbs.jpg" alt="img01"/>
         <figcaption>
-            <h2>Offers</h2>
+            <h2>Βότανα</h2>
             <p>Lily likes to play with crayons and pencils<br>
-            <a href="${pageContext.request.contextPath}/resources/images/portfolio/6.jpg" title="1" data-gallery>View more</a></p>            
+            <a href="${pageContext.request.contextPath}/resources/images/portfolio/herbs.jpeg" title="1" data-gallery>View more</a></p>            
         </figcaption>
     </figure>
     <figure class="effect-oscar  wowload fadeInUp">
-        <img src="${pageContext.request.contextPath}/resources/images/portfolio/7.jpg" alt="img01"/>
+        <img src="${pageContext.request.contextPath}/resources/images/portfolio/milk.jpg" alt="img01"/>
         <figcaption>
-            <h2>Navigate</h2>
+            <h2>Γάλατα</h2>
             <p>Lily likes to play with crayons and pencils<br>
-            <a href="${pageContext.request.contextPath}/resources/images/portfolio/7.jpg" title="1" data-gallery>View more</a></p>            
+            <a href="${pageContext.request.contextPath}/resources/images/portfolio/milk.jpg" title="1" data-gallery>View more</a></p>            
         </figcaption>
     </figure>
     <figure class="effect-oscar  wowload fadeInUp">
-        <img src="${pageContext.request.contextPath}/resources/images/portfolio/8.jpg" alt="img01"/>
+        <img src="${pageContext.request.contextPath}/resources/images/portfolio/eggs1.jpg" alt="img01"/>
         <figcaption>
-            <h2>Buy</h2>
+            <h2>Αβγά</h2>
             <p>Lily likes to play with crayons and pencils<br>
-            <a href="${pageContext.request.contextPath}/resources/images/portfolio/8.jpg" title="1" data-gallery>View more</a></p>            
+            <a href="${pageContext.request.contextPath}/resources/images/portfolio/eggs1.jpg" title="1" data-gallery>View more</a></p>            
         </figcaption>
     </figure>
     <figure class="effect-oscar  wowload fadeInUp">
-        <img src="${pageContext.request.contextPath}/resources/images/portfolio/9.jpg" alt="img01"/>
+        <img src="${pageContext.request.contextPath}/resources/images/portfolio/other.jpg" alt="img01"/>
         <figcaption>
-            <h2>Shoping Cart</h2>
+            <h2>Άλλα Προϊόντα</h2>
             <p>Lily likes to play with crayons and pencils<br>
-            <a href="${pageContext.request.contextPath}/resources/images/portfolio/9.jpg" title="1" data-gallery>View more</a></p>            
+            <a href="${pageContext.request.contextPath}/resources/images/portfolio/other.jpg" title="1" data-gallery>View more</a></p>            
         </figcaption>
     </figure>
-    <figure class="effect-oscar  wowload fadeInUp">
+    
+    <!--
+        <figure class="effect-oscar  wowload fadeInUp">
         <img src="${pageContext.request.contextPath}/resources/images/portfolio/10.jpg" alt="img01"/>
         <figcaption>
             <h2>Sales</h2>
@@ -184,7 +186,9 @@
             <p>Lily likes to play with crayons and pencils<br>
             <a href="${pageContext.request.contextPath}/resources/images/portfolio/12.jpg" title="1" data-gallery>View more</a></p>            
         </figcaption>
-    </figure>
+    </figure> 
+    
+    -->
     
 
      
