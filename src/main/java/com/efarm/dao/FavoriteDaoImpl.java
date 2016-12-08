@@ -8,6 +8,9 @@ package com.efarm.dao;
 import com.efarm.entity.Favorite;
 import java.util.List;
 import javax.transaction.Transactional;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -18,6 +21,9 @@ import org.springframework.stereotype.Repository;
 @Transactional
 public class FavoriteDaoImpl implements FavoriteDAO {
 
+    @Autowired
+    SessionFactory sessionFactory;
+    
     @Override
     public List<Favorite> getFavorites() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
@@ -25,7 +31,8 @@ public class FavoriteDaoImpl implements FavoriteDAO {
 
     @Override
     public void addFavorite(Favorite favorite) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        Session currentSession = sessionFactory.getCurrentSession();
+        currentSession.save(favorite);
     }
 
     @Override
