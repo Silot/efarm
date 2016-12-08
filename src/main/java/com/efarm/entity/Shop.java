@@ -31,13 +31,21 @@ public class Shop {
     @Column(name="location")
     private String location;
     
+    @Column(name="phoneNumber")
+    private String phoneNumber;
+    
+    @Column(name="likes")
+    private int likes;
+    
     public Shop(){}
 
-    public Shop(String id, String owner, String category, String location) {
+    public Shop(String id, String owner, String category, String location, String phoneNumber, int likes) {
         this.id = id;
         this.owner = owner;
         this.category = category;
         this.location = location;
+        this.phoneNumber = phoneNumber;
+        this.likes = likes;
     }
 
     public String getId() {
@@ -72,9 +80,27 @@ public class Shop {
         this.location = location;
     }
 
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public int getLikes() {
+        return likes;
+    }
+
+    public void setLikes(int likes) {
+        this.likes = likes;
+    }
+
     @Override
     public String toString() {
-        return "Shop{" + "id=" + id + ", owner=" + owner + ", category=" + category + ", location=" + location + '}';
+        return "Shop{" + "id=" + id + ", owner=" + owner + ", category=" + category + ", location=" + location + ", phoneNumber=" + phoneNumber + ", likes=" + likes + '}';
     }
+
+    
     
 }

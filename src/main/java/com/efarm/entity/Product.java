@@ -30,9 +30,6 @@ public class Product {
     
     @Column(name="shop")
     private String shop;
-    
-    @Column(name="likes")
-    private int likes;
   
     @Column(name="bio")
     private String bio;
@@ -42,12 +39,11 @@ public class Product {
     
     public Product(){}
 
-    public Product(String id, String category, String owner, String shop, int likes, String bio, String publicLocal) {
+    public Product(String id, String category, String owner, String shop, String bio, String publicLocal) {
         this.id = id;
         this.category = category;
         this.owner = owner;
         this.shop = shop;
-        this.likes = likes;
         this.bio = bio;
         this.publicLocal = publicLocal;
     }
@@ -84,14 +80,6 @@ public class Product {
         this.shop = shop;
     }
 
-    public int getLikes() {
-        return likes;
-    }
-
-    public void setLikes(int likes) {
-        this.likes = likes;
-    }
-
     public String getBio() {
         return bio;
     }
@@ -110,9 +98,10 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{" + "id=" + id + ", category=" + category + ", owner=" + owner + ", shop=" + shop + ", likes=" + likes + ", bio=" + bio + ", publicLocal=" + publicLocal + '}';
+        return "Product{" + "id=" + id + ", category=" + category + ", owner=" + owner + ", shop=" + shop + ", bio=" + bio + ", publicLocal=" + publicLocal + '}';
     }
 
+  
     
     
 }

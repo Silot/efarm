@@ -25,14 +25,18 @@ public class ShopController {
     
     @RequestMapping(value={"/addShop"}) //owner = username
     public String addNewShop(ModelMap model, @RequestParam String id, @RequestParam String owner,
-                             @RequestParam String category, @RequestParam String location){
-        Shop shop = new Shop(id,owner,category,location);
+                             @RequestParam String category, @RequestParam String location, @RequestParam String phoneNumber,
+                             @RequestParam String likes){
+        int shopLikes = Integer.parseInt(likes);
+        Shop shop = new Shop(id,owner,category,location,phoneNumber,shopLikes);
         shopDao.addShop(shop);
         
         model.put("id",id);
         model.put("owner",owner);
         model.put("category", category);
         model.put("location", location);
+        model.put("phoneNumber", phoneNumber);
+        model.put("likes", shopLikes);
         
         return "shop";
     }
