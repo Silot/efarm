@@ -11,7 +11,7 @@
         <meta charset="UTF-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>e-Farm</title>
+<title>e-Farm.com | Αγοράστε από δημιουργικούς ανθρώπους από διάφορα σημεία της χώρας</title>
 
 <!-- Google fonts -->
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
@@ -30,8 +30,8 @@
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/assets/gallery/blueimp-gallery.min.css">
 
 <!-- favicon -->
-<link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/images/favicon.ico" type="image/x-icon">
-<link rel="icon" href="${pageContext.request.contextPath}/resources/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/images/favicon.jpg" type="image/x-icon">
+<link rel="icon" href="${pageContext.request.contextPath}/resources/images/favicon.jpg" type="image/x-icon">
 
 
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/assets/style.css">
@@ -48,7 +48,7 @@
           <div class="container">
             <div class="navbar-header">
               <!-- Logo Starts -->
-              <a class="navbar-brand" href="#home"><img src="${pageContext.request.contextPath}/resources/images/logo.png" alt="logo"></a>
+              <a class="navbar-brand" href="#home"><img src="${pageContext.request.contextPath}/resources/images/logo1.jpg" alt="logo"></a>
               <!-- #Logo Ends -->
 
 
@@ -65,9 +65,9 @@
             <!-- Nav Starts -->
             <div class="navbar-collapse  collapse">
               <ul class="nav navbar-nav navbar-right scroll">
-                 <li class="active"><a href="#works">Home</a></li>
-                 <li ><a href="#about">About</a></li>
-                 <li ><a href="#partners">Partners</a></li>
+                 <li class="active"><a href="#works">Πούλα στο e-Farm</a></li>
+                 <li ><a href="#about">Εγγραφείτε</a></li>
+                 <li ><a href="#partners">Συνδεθείτε</a></li>
                  <li ><a href="#contact">Contact</a></li>
               </ul>
             </div>
@@ -91,73 +91,73 @@
     <figure class="effect-oscar  wowload fadeIn">
         <img src="${pageContext.request.contextPath}/resources/images/portfolio/bio.jpg" alt="img01"/>
         <figcaption>
-            <h2>Βιολογικά</h2>
-            <p>Lily likes to play with crayons and pencils<br>
+            <h2>ΒΙΟΛΟΓΙΚΑ</h2>
+            <p>ΤΟ ΤΙ ΕΠΙΛΕΓΟΥΜΕ ΝΑ ΦΑΜΕ ΕΙΝΑΙ ΜΙΑ ΙΣΧΥΡΗ ΕΚΦΡΑΣΗ ΤΗΣ ΗΘΙΚΗΣ ΜΑΣ ΚΑΙ ΤΗΣ ΑΠΟΨΗΣ ΜΑΣ ΓΙΑ ΤΟΝ ΚΟΣΜΟ.<br>
             <a href="${pageContext.request.contextPath}/resources/images/portfolio/bio.jpg" title="1" data-gallery>View more</a></p>            
         </figcaption>
     </figure>
      <figure class="effect-oscar  wowload fadeInUp">
         <img src="${pageContext.request.contextPath}/resources/images/portfolio/vegetables.jpg" alt="img01"/>
         <figcaption>
-            <h2>Λαχανικά</h2>
-            <p>Lily likes to play with crayons and pencils<br>
+            <h2>ΛΑΧΑΝΙΚΑ</h2>
+            <p>ΤΟ ΤΙ ΕΠΙΛΕΓΟΥΜΕ ΝΑ ΦΑΜΕ ΕΙΝΑΙ ΜΙΑ ΙΣΧΥΡΗ ΕΚΦΡΑΣΗ ΤΗΣ ΗΘΙΚΗΣ ΜΑΣ ΚΑΙ ΤΗΣ ΑΠΟΨΗΣ ΜΑΣ ΓΙΑ ΤΟΝ ΚΟΣΜΟ.<br>
             <a href="${pageContext.request.contextPath}/resources/images/portfolio/vegetables.jpg" title="1" data-gallery>View more</a></p>            
         </figcaption>
     </figure>
      <figure class="effect-oscar  wowload fadeInUp">
         <img src="${pageContext.request.contextPath}/resources/images/portfolio/fruits.jpg" alt="img01"/>
         <figcaption>
-            <h2>Φρούτα</h2>
-            <p>Lily likes to play with crayons and pencils<br>
+            <h2>ΦΡΟΥΤΑ</h2>
+            <p>ΤΟ ΤΙ ΕΠΙΛΕΓΟΥΜΕ ΝΑ ΦΑΜΕ ΕΙΝΑΙ ΜΙΑ ΙΣΧΥΡΗ ΕΚΦΡΑΣΗ ΤΗΣ ΗΘΙΚΗΣ ΜΑΣ ΚΑΙ ΤΗΣ ΑΠΟΨΗΣ ΜΑΣ ΓΙΑ ΤΟΝ ΚΟΣΜΟ.<br>
             <a href="${pageContext.request.contextPath}/resources/images/portfolio/fruits.jpg" title="1" data-gallery>View more</a></p>            
         </figcaption>
     </figure>
      <figure class="effect-oscar  wowload fadeInUp">
-        <img src="${pageContext.request.contextPath}/resources/images/portfolio/4.jpg" alt="img01"/>
+        <img src="${pageContext.request.contextPath}/resources/images/portfolio/cereals.jpg" alt="img01"/>
         <figcaption>
-            <h2>Δημητριακά</h2>
-            <p>Lily likes to play with crayons and pencils<br>
-            <a href="${pageContext.request.contextPath}/resources/images/portfolio/4.jpg" title="1" data-gallery>View more</a></p>            
+            <h2>ΔΗΜΗΤΡΙΑΚΑ</h2>
+            <p>ΤΟ ΤΙ ΕΠΙΛΕΓΟΥΜΕ ΝΑ ΦΑΜΕ ΕΙΝΑΙ ΜΙΑ ΙΣΧΥΡΗ ΕΚΦΡΑΣΗ ΤΗΣ ΗΘΙΚΗΣ ΜΑΣ ΚΑΙ ΤΗΣ ΑΠΟΨΗΣ ΜΑΣ ΓΙΑ ΤΟΝ ΚΟΣΜΟ.<br>
+            <a href="${pageContext.request.contextPath}/resources/images/portfolio/cereals.jpg" title="1" data-gallery>View more</a></p>            
         </figcaption>
     </figure>
      <figure class="effect-oscar  wowload fadeInUp">
-        <img src="${pageContext.request.contextPath}/resources/images/portfolio/5.jpg" alt="img01"/>
+        <img src="${pageContext.request.contextPath}/resources/images/portfolio/nuts.jpg" alt="img01"/>
         <figcaption>
-            <h2>Ξηροί Καρποί</h2>
-            <p>Lily likes to play with crayons and pencils<br>
-            <a href="${pageContext.request.contextPath}/resources/images/portfolio/5.jpg" title="1" data-gallery>View more</a></p>            
+            <h2>ΞΗΡΟΙ ΚΑΡΠΟΙ</h2>
+            <p>ΤΟ ΤΙ ΕΠΙΛΕΓΟΥΜΕ ΝΑ ΦΑΜΕ ΕΙΝΑΙ ΜΙΑ ΙΣΧΥΡΗ ΕΚΦΡΑΣΗ ΤΗΣ ΗΘΙΚΗΣ ΜΑΣ ΚΑΙ ΤΗΣ ΑΠΟΨΗΣ ΜΑΣ ΓΙΑ ΤΟΝ ΚΟΣΜΟ.<br>
+            <a href="${pageContext.request.contextPath}/resources/images/portfolio/nuts.jpg" title="1" data-gallery>View more</a></p>            
         </figcaption>
     </figure>
      
      <figure class="effect-oscar  wowload fadeInUp">
         <img src="${pageContext.request.contextPath}/resources/images/portfolio/herbs.jpg" alt="img01"/>
         <figcaption>
-            <h2>Βότανα</h2>
-            <p>Lily likes to play with crayons and pencils<br>
-            <a href="${pageContext.request.contextPath}/resources/images/portfolio/herbs.jpeg" title="1" data-gallery>View more</a></p>            
+            <h2>ΒΟΤΑΝΑ</h2>
+            <p>ΤΟ ΤΙ ΕΠΙΛΕΓΟΥΜΕ ΝΑ ΦΑΜΕ ΕΙΝΑΙ ΜΙΑ ΙΣΧΥΡΗ ΕΚΦΡΑΣΗ ΤΗΣ ΗΘΙΚΗΣ ΜΑΣ ΚΑΙ ΤΗΣ ΑΠΟΨΗΣ ΜΑΣ ΓΙΑ ΤΟΝ ΚΟΣΜΟ.<br>
+            <a href="${pageContext.request.contextPath}/resources/images/portfolio/herbs.jpg" title="1" data-gallery>View more</a></p>            
         </figcaption>
     </figure>
     <figure class="effect-oscar  wowload fadeInUp">
         <img src="${pageContext.request.contextPath}/resources/images/portfolio/milk.jpg" alt="img01"/>
         <figcaption>
-            <h2>Γάλατα</h2>
-            <p>Lily likes to play with crayons and pencils<br>
+            <h2>ΓΑΛΑΤΑ</h2>
+            <p>ΤΟ ΤΙ ΕΠΙΛΕΓΟΥΜΕ ΝΑ ΦΑΜΕ ΕΙΝΑΙ ΜΙΑ ΙΣΧΥΡΗ ΕΚΦΡΑΣΗ ΤΗΣ ΗΘΙΚΗΣ ΜΑΣ ΚΑΙ ΤΗΣ ΑΠΟΨΗΣ ΜΑΣ ΓΙΑ ΤΟΝ ΚΟΣΜΟ.<br>
             <a href="${pageContext.request.contextPath}/resources/images/portfolio/milk.jpg" title="1" data-gallery>View more</a></p>            
         </figcaption>
     </figure>
     <figure class="effect-oscar  wowload fadeInUp">
-        <img src="${pageContext.request.contextPath}/resources/images/portfolio/eggs1.jpg" alt="img01"/>
+        <img src="${pageContext.request.contextPath}/resources/images/portfolio/garden.JPG" alt="img01"/>
         <figcaption>
-            <h2>Αβγά</h2>
-            <p>Lily likes to play with crayons and pencils<br>
-            <a href="${pageContext.request.contextPath}/resources/images/portfolio/eggs1.jpg" title="1" data-gallery>View more</a></p>            
+            <h2>ΚΗΠΟΣ</h2>
+            <p>ΤΟ ΤΙ ΕΠΙΛΕΓΟΥΜΕ ΝΑ ΦΑΜΕ ΕΙΝΑΙ ΜΙΑ ΙΣΧΥΡΗ ΕΚΦΡΑΣΗ ΤΗΣ ΗΘΙΚΗΣ ΜΑΣ ΚΑΙ ΤΗΣ ΑΠΟΨΗΣ ΜΑΣ ΓΙΑ ΤΟΝ ΚΟΣΜΟ.<br>
+            <a href="${pageContext.request.contextPath}/resources/images/portfolio/garden.JPG" title="1" data-gallery>View more</a></p>            
         </figcaption>
     </figure>
     <figure class="effect-oscar  wowload fadeInUp">
         <img src="${pageContext.request.contextPath}/resources/images/portfolio/other.jpg" alt="img01"/>
         <figcaption>
-            <h2>Άλλα Προϊόντα</h2>
-            <p>Lily likes to play with crayons and pencils<br>
+            <h2>ΑΛΛΑ ΠΡΟΙΟΝΤΑ</h2>
+            <p>ΤΟ ΤΙ ΕΠΙΛΕΓΟΥΜΕ ΝΑ ΦΑΜΕ ΕΙΝΑΙ ΜΙΑ ΙΣΧΥΡΗ ΕΚΦΡΑΣΗ ΤΗΣ ΗΘΙΚΗΣ ΜΑΣ ΚΑΙ ΤΗΣ ΑΠΟΨΗΣ ΜΑΣ ΓΙΑ ΤΟΝ ΚΟΣΜΟ.<br>
             <a href="${pageContext.request.contextPath}/resources/images/portfolio/other.jpg" title="1" data-gallery>View more</a></p>            
         </figcaption>
     </figure>
