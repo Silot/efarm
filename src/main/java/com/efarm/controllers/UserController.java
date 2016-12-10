@@ -7,6 +7,7 @@ package com.efarm.controllers;
 
 import com.efarm.dao.UserDAO;
 import com.efarm.entity.User;
+import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -25,7 +26,12 @@ public class UserController {
     
     @RequestMapping(value={"/login"})
     public String login(){
-        return "loginSignUp";
+        return "userLogin";
+    }
+    
+     @RequestMapping(value={"/signUp"})
+    public String signUp(){
+        return "userSignUp";
     }
   
     @RequestMapping(value={"/addUser"})
@@ -38,15 +44,24 @@ public class UserController {
     
     @RequestMapping(value={ "/verifyUser" })
     public String verifyUser(ModelMap model, @RequestParam String nameOrEmail, @RequestParam String password){
+       
         if(nameOrEmail.contains("@") ){ // an einai to email
-            int user = userDao.getUserByEmailAndPass(nameOrEmail, password);
-            if(user!=0) return "verified"; //success prepei na epistrepsei >0 
-        }else{ //an einai to id(username)
-            int user = userDao.getUserByIdAndPass(nameOrEmail, password);
-            if(user!=0) return "verified"; //success prepei na epistrepsei >0 
+            List<User> user = userDao.getUserByEmailAndPass(nameOrEmail, password);
+                if(!user.isEmpty()) {
+                    model.put("user", user);
+                    return "index"; //success prepei na epistrepsei >0 
+                }
+        }else{ //an einai to id(username) 
+            List<User> user = userDao.getUserByIdAndPass(nameOrEmail, password);
+                if(!user.isEmpty()) {
+                    model.put("user", user);
+                    return "index";
+                } //success prepei na epistrepsei >0 
         }
+        
         model.put("error", "Error! Invalid Credentials.");
-        return "loginSignUp";
+        return "userLogin";
+
     }
-    
+       
 }

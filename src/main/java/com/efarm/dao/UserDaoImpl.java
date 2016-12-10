@@ -7,7 +7,7 @@ package com.efarm.dao;
 
 import com.efarm.entity.User;
 import java.util.List;
-import javax.persistence.Query;
+import org.hibernate.query.Query;
 import javax.transaction.Transactional;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -47,33 +47,41 @@ SessionFactory sessionFactory;
     }
 
     @Override
-    public int getUserByIdAndPass(String id, String password) {
-    Session currentSession = sessionFactory.getCurrentSession();
-		
-                // retrieve/read from database using the primary key
-            
-                Query query = currentSession.createQuery("from User u where u.id =:id and u.password =:password ", User.class);
-                query.setParameter("mail", id);
-                query.setParameter("password", password);
-                int user = query.getMaxResults();
-		return user;
-                
-           }
+    public List<User> getUserByIdAndPass(String id, String password) {
+        
+        Session currentSession = sessionFactory.getCurrentSession();
+        
+        //create a query        
+        Query<User> query = currentSession.createQuery("from User u where u.id =:id and u.password =:password ", User.class);
+        query.setParameter("id", id);
+        query.setParameter("password", password);
+                //get the result list
+        List<User> users = query.getResultList();
+        System.out.println(users);
+        
+        return users;    
+    
+    }
 
     @Override
-    public int getUserByEmailAndPass(String email, String password) {
-
-        	Session currentSession = sessionFactory.getCurrentSession();
-		
-                // retrieve/read from database using the primary key
-            
-                Query query = currentSession.createQuery("from User u where u.email =:email and u.password =:password ", User.class);
-                query.setParameter("mail", email);
-                query.setParameter("password", password);
-                int user = query.getMaxResults();
-		return user;
-       
+    public List<User> getUserByEmailAndPass(String email, String password) {
+                  //get the current hibernate session
+        Session currentSession = sessionFactory.getCurrentSession();
+        
+        //create a query        
+        Query<User> query = currentSession.createQuery("from User u where u.email =:email and u.password =:password ", User.class);
+        query.setParameter("email", email);
+        query.setParameter("password", password);
+        //get the result list
+        List<User> users = query.getResultList();
+        System.out.println(users);
+        
+        return users;    
     }
+
+  
+    
+   
 
     
 }

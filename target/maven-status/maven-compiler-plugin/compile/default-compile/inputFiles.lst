@@ -9,6 +9,7 @@
 /Users/tolis/NetBeansProjects/mavenproject1/e-Farm/src/main/java/com/efarm/entity/Product.java
 /Users/tolis/NetBeansProjects/mavenproject1/e-Farm/src/main/java/com/efarm/controllers/ProductController.java
 /Users/tolis/NetBeansProjects/mavenproject1/e-Farm/src/main/java/com/efarm/dao/ProductDAO.java
+/Users/tolis/NetBeansProjects/mavenproject1/e-Farm/src/main/java/com/efarm/exceptions/HttpExceptionHandler.java
 /Users/tolis/NetBeansProjects/mavenproject1/e-Farm/src/main/java/com/efarm/dao/FavoriteDaoImpl.java
 /Users/tolis/NetBeansProjects/mavenproject1/e-Farm/src/main/java/com/efarm/dao/ShopDaoImpl.java
 /Users/tolis/NetBeansProjects/mavenproject1/e-Farm/src/main/java/com/efarm/controllers/FavoriteController.java

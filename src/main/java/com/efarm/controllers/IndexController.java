@@ -16,7 +16,7 @@ public class IndexController {
 
     @RequestMapping(value={ "/" })
     public String showIndex(){
-        
+       
         return "index";
     }
     

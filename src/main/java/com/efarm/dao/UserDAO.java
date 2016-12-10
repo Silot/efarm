@@ -22,7 +22,7 @@ public interface UserDAO {
     
     public void updateUser(User user);
     
-    public int getUserByIdAndPass(String id, String password); //id = username
+    public List<User> getUserByIdAndPass(String id, String password); //id = username
     
-    public int getUserByEmailAndPass(String email, String password);
+    public List<User> getUserByEmailAndPass(String email, String password);
 }
