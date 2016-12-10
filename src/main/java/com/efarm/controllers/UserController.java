@@ -48,13 +48,13 @@ public class UserController {
         if(nameOrEmail.contains("@") ){ // an einai to email
             List<User> user = userDao.getUserByEmailAndPass(nameOrEmail, password);
                 if(!user.isEmpty()) {
-                    model.put("user", user);
+                    model.put("user", "Συνδεδεμένος");
                     return "index"; //success prepei na epistrepsei >0 
                 }
         }else{ //an einai to id(username) 
             List<User> user = userDao.getUserByIdAndPass(nameOrEmail, password);
                 if(!user.isEmpty()) {
-                    model.put("user", user);
+                    model.put("user", "Συνδεδεμένος");
                     return "index";
                 } //success prepei na epistrepsei >0 
         }

@@ -7,6 +7,7 @@ package com.efarm.dao;
 
 import com.efarm.entity.Product;
 import java.util.List;
+import org.hibernate.query.Query;
 import javax.transaction.Transactional;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

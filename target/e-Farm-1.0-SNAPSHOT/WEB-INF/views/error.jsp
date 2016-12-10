@@ -12,8 +12,14 @@
         <title>Error Page</title>
     </head>
     <body>
-        <h1>whooopsi Error !!!</h1>
-        ${error}
-        ${user}
+    <center>
+        <img src="${pageContext.request.contextPath}/resources/error/dunno.png">
+        <img src="${pageContext.request.contextPath}/resources/error/404.png">
+        <img src="${pageContext.request.contextPath}/resources/error/know.jpeg">
+    </center>
+    <br><br><br>
+    <center>
+        <a href="${pageContext.request.contextPath}/"><h1>Επιστροφή στην αρχική σελίδα</h1></a>
+    </center>
     </body>
 </html>
