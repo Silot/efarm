@@ -31,7 +31,7 @@ public class HttpExceptionHandler {
         return "error";
 } 
   
- /*   //500
+    //500
     @ExceptionHandler(value = NullPointerException.class)  
     public String handleNullPointerException() {
         logger.error("NullPointerException");
@@ -53,5 +53,5 @@ public class HttpExceptionHandler {
 		return "error";
 	}
         
-*/        
+        
 }
