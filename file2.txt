@@ -1,0 +1,45 @@
+id = orders.get(0).getId();
+        product = orders.get(0).getProduct();
+        shop = orders.get(0).getShop();
+        quantity = orders.get(0).getQuantity();
+        clientName = orders.get(0).getClientName();
+        sendLocation =  orders.get(0).getSendLocation();
+        email = orders.get(0).getEmail();
+        tele = orders.get(0).getTel();
+        theDate = orders.get(0).getDate();
+        model.put("product","<b>Προϊόν : </b>" + product );
+        model.put("shop", "<b>Κατάστημα : </b>" + shop );
+        model.put("quantity", "<b>Ποσότητα : </b>" + quantity );
+        model.put("clientName", "<b>Όνομα Πελάτη : </b>" + clientName );
+        model.put("sendLocation", "<b>Τοποθεσία Αποστολής : </b>" + sendLocation );
+        model.put("email", "<b>E-mail :  <a href=\"mailto:"+email+"?Subject=e-farm\" target=\"_top\">"+ email + " </a> </b>" );
+        model.put("tel", "<b>Τηλέφωνο : <a href=\"tel:"+tele+"\">"+ tele +"</a></b>" );
+        model.put("theDate", "<b>Ημερομηνία : </b>" + theDate );
+        model.put("delete", "<form action=\"/e-Farm/removeOrder\" method=\"POST\">\n" +"   "
+                + "     <input type=\"hidden\" name=\"getId\" id=\"getId\" value=" + id + " />\n" +" "
+                + "<input type=\"submit\" value=\"Διαγραφή Παραγγελίας\">\n" +"</form>");
+
+
+
+        id = orders.get(1).getId();
+        product = orders.get(1).getProduct();
+        shop = orders.get(1).getShop();
+        quantity = orders.get(1).getQuantity();
+        clientName = orders.get(1).getClientName();
+        sendLocation =  orders.get(1).getSendLocation();
+        email = orders.get(1).getEmail();
+        tele = orders.get(1).getTel();
+        theDate = orders.get(1).getDate();
+        model.put("product1","<b>Προϊόν : </b>" + product );
+        model.put("shop1", "<b>Κατάστημα : </b>" + shop );
+        model.put("quantity1", "<b>Ποσότητα : </b>" + quantity );
+        model.put("clientName1", "<b>Όνομα Πελάτη : </b>" + clientName );
+        model.put("sendLocation1", "<b>Τοποθεσία Αποστολής : </b>" + sendLocation );
+        model.put("email1", "<b>E-mail :  <a href=\"mailto:"+email+"?Subject=e-farm\" target=\"_top\">"+ email + " </a> </b>" );
+        model.put("tel1", "<b>Τηλέφωνο : <a href=\"tel:"+tele+"\">"+ tele +"</a></b>" );
+        model.put("theDate1", "<b>Ημερομηνία : </b>" + theDate );
+        model.put("delete1", "<form action=\"/e-Farm/removeOrder\" method=\"POST\">\n" +"   "
+                + "     <input type=\"hidden\" name=\"getId\" id=\"getId\" value=" + id + " />\n" +" "
+                + "<input type=\"submit\" value=\"Διαγραφή Παραγγελίας\">\n" +"</form>");
+
+        
